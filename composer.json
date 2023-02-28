@@ -1,0 +1,24 @@
+{
+    "name": "nwidart/authentication",
+    "type":"laravel-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": ["Modules\\Authentication\\Providers\\AuthenticationServiceProvider"],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Authentication\\": ""
+        }
+    }
+}
